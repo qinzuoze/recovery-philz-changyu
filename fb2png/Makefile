@@ -1,5 +1,5 @@
 # path to toolchain
-PATH := /home/changyuet/cm/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin:$(PATH)
+PATH := /home/changyuet/cm11/prebuilt/linux-x86/toolchain/arm-eabi-4.4.3/bin:$(PATH)
 
 # NDK
 CC := arm-linux-androideabi-gcc
