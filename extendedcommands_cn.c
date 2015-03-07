@@ -3412,9 +3412,9 @@ void show_philz_settings_menu()
             case 6: {
                 ui_print(EXPAND(RECOVERY_MOD_VERSION) "\n");
                 ui_print("Philz版本: " EXPAND(PHILZ_BUILD) " - " EXPAND(TARGET_COMMON_NAME) "\n");
-                ui_print("鲳鱼微博: " EXPAND(weibo.com/10180016) "\n");
+
                 ui_print("编译作者 " EXPAND(安热_重庆鲳鱼) "\n");
-                ui_print("支持论坛 " EXPAND(bbs.apkhot.com) "\n");
+                ui_print("鲳鱼微博: " EXPAND(weibo.com/10180016) "\n");
 #ifdef PHILZ_TOUCH_RECOVERY
                 print_libtouch_version(1);
 #endif
